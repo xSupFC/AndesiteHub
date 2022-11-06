@@ -182,7 +182,6 @@ function lib:Window(text, text2, closebind)
                 DropdownHolderUIStroke.Enabled = true
                 DropdownHolderUIStroke.Archivable = true
                 
-local ui = Instance.new("ScreenGui")
 local LoadFrame2 = Instance.new("Frame")
 local LoadFrame = Instance.new("Frame")
 local Barload = Instance.new("Frame")
@@ -194,8 +193,6 @@ local BindCorner = Instance.new("UICorner")
 
 local TweenService = game:GetService("TweenService")
 
-ui.Parent = game.CoreGui
-ui.Name = "ui"
 LoadFrame2.Name = "LoadFrame"
 LoadFrame2.Parent = ui
 LoadFrame2.AnchorPoint = Vector2.new(0.5, 0.5)
