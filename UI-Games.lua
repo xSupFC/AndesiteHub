@@ -311,7 +311,7 @@ Button2.Position = UDim2.new(0.0670000091, 0, 0, 0)
 Button2.Size = UDim2.new(0.865999997, 0, 0.0619739033, 0)
 Button2.Selected = true
 Button2.Font = Enum.Font.GothamBold
-Button2.Text = "Player"
+Button2.Text = "Social"
 Button2.TextColor3 = Color3.fromRGB(255, 255, 255)
 Button2.TextSize = 18.000
 
