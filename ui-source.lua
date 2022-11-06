@@ -1,4 +1,4 @@
--credit to CocoHub for ui
+--credit to CocoHub for ui
 local lib = {}
 
 function lib:CreateWindow(text)
