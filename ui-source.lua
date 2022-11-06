@@ -1,4 +1,8 @@
---credit to CocoHub for ui
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xSupFC/AndesiteHub/main/Loading_UI.lua"))()
+--[[
+ UI by CocoHub
+ Loader by SupLua
+]]--
 local lib = {}
 
 function lib:CreateWindow(text)
