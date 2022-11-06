@@ -26,6 +26,7 @@ local UICorner_7 = Instance.new("UICorner")
 local CocoLogo = Instance.new("ImageLabel")
 local CocoLogo2 = Instance.new("TextLabel")
 local MinimizeBTN = Instance.new("ImageButton")
+--[[
 local LoadFrame2 = Instance.new("Frame")
 local LoadFrame = Instance.new("Frame")
 local Barload = Instance.new("Frame")
@@ -35,11 +36,13 @@ local LoadTitle = Instance.new("TextLabel")
 local DropdownHolderUIStrok1e = Instance.new("UIStroke")
 local BindCorner = Instance.new("UICorner")
 local TweenService = game:GetService("TweenService")
+]]
 
 CCUILib.Name = "Coco"
 CCUILib.Parent = game.CoreGui
 CCUILib.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
+--[[
 LoadFrame2.Name = "LoadFrame"
 LoadFrame2.Parent = CCUILib
 LoadFrame2.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -176,6 +179,7 @@ LoadFrame2:TweenSize(UDim2.new(0, 0,0, 0), Enum.EasingDirection.Out, Enum.Easing
 DropdownHolderUIStroke.Thickness = 1
 
 wait(1)
+]]
 MainFrame.Name = "MainFrame"
 MainFrame.Parent = CCUILib
 MainFrame.Active = true
