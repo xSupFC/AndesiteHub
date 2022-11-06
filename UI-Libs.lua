@@ -706,7 +706,7 @@ function Kavo.CreateLib(kavName, themeList)
                         c:TweenSizeAndPosition(UDim2.new(0, size, 0, size), UDim2.new(0.5, (-size / 2), 0.5, (-size / 2)), 'Out', 'Quad', len, true, nil)
                         for i = 1, 10 do
                             c.ImageTransparency = c.ImageTransparency + 0.05
-                            wait(len / 12)
+                            --wait(len / 12)
                         end
                         c:Destroy()
                     else
@@ -1111,7 +1111,7 @@ function Kavo.CreateLib(kavName, themeList)
                                 c:TweenSizeAndPosition(UDim2.new(0, size, 0, size), UDim2.new(0.5, (-size / 2), 0.5, (-size / 2)), 'Out', 'Quad', len, true, nil)
                                 for i = 1, 10 do
                                     c.ImageTransparency = c.ImageTransparency + 0.05
-                                    wait(len / 12)
+                                    --wait(len / 12)
                                 end
                                 c:Destroy()
                             else
@@ -1131,7 +1131,7 @@ function Kavo.CreateLib(kavName, themeList)
                                 c:TweenSizeAndPosition(UDim2.new(0, size, 0, size), UDim2.new(0.5, (-size / 2), 0.5, (-size / 2)), 'Out', 'Quad', len, true, nil)
                                 for i = 1, 10 do
                                     c.ImageTransparency = c.ImageTransparency + 0.05
-                                    wait(len / 12)
+                                    --wait(len / 12)
                                 end
                                 c:Destroy()
                             end
@@ -1532,7 +1532,7 @@ function Kavo.CreateLib(kavName, themeList)
                             c:TweenSizeAndPosition(UDim2.new(0, size, 0, size), UDim2.new(0.5, (-size / 2), 0.5, (-size / 2)), 'Out', 'Quad', len, true, nil)
                             for i = 1, 10 do
                                 c.ImageTransparency = c.ImageTransparency + 0.05
-                                wait(len / 12)
+                                --wait(len / 12)
                             end
                             c:Destroy()
                         else
@@ -1554,7 +1554,7 @@ function Kavo.CreateLib(kavName, themeList)
                             c:TweenSizeAndPosition(UDim2.new(0, size, 0, size), UDim2.new(0.5, (-size / 2), 0.5, (-size / 2)), 'Out', 'Quad', len, true, nil)
                             for i = 1, 10 do
                                 c.ImageTransparency = c.ImageTransparency + 0.05
-                                wait(len / 12)
+                                --wait(len / 12)
                             end
                             c:Destroy()
                         end
@@ -1756,7 +1756,7 @@ function Kavo.CreateLib(kavName, themeList)
                             c:TweenSizeAndPosition(UDim2.new(0, size, 0, size), UDim2.new(0.5, (-size / 2), 0.5, (-size / 2)), 'Out', 'Quad', len, true, nil)
                             for i = 1, 10 do
                                 c.ImageTransparency = c.ImageTransparency + 0.05
-                                wait(len / 12)
+                                --wait(len / 12)
                             end
                             c:Destroy()         
                         else
@@ -1857,7 +1857,7 @@ function Kavo.CreateLib(kavName, themeList)
                                 c:TweenSizeAndPosition(UDim2.new(0, size, 0, size), UDim2.new(0.5, (-size / 2), 0.5, (-size / 2)), 'Out', 'Quad', len, true, nil)
                                 for i = 1, 10 do
                                     c.ImageTransparency = c.ImageTransparency + 0.05
-                                    wait(len / 12)
+                                    --wait(len / 12)
                                 end
                                 c:Destroy()         
                             else
@@ -1964,7 +1964,7 @@ function Kavo.CreateLib(kavName, themeList)
                         c:TweenSizeAndPosition(UDim2.new(0, size, 0, size), UDim2.new(0.5, (-size / 2), 0.5, (-size / 2)), 'Out', 'Quad', len, true, nil)
                         for i = 1, 10 do
                         c.ImageTransparency = c.ImageTransparency + 0.05
-                            wait(len / 12)
+                            --wait(len / 12)
                         end
                     else
                         for i,v in next, infoContainer:GetChildren() do
@@ -2200,7 +2200,7 @@ function Kavo.CreateLib(kavName, themeList)
                             c:TweenSizeAndPosition(UDim2.new(0, size, 0, size), UDim2.new(0.5, (-size / 2), 0.5, (-size / 2)), 'Out', 'Quad', len, true, nil)
                             for i = 1, 10 do
                                 c.ImageTransparency = c.ImageTransparency + 0.05
-                                wait(len / 12)
+                                --wait(len / 12)
                             end
                             c:Destroy()
                         else
@@ -2222,7 +2222,7 @@ function Kavo.CreateLib(kavName, themeList)
                             c:TweenSizeAndPosition(UDim2.new(0, size, 0, size), UDim2.new(0.5, (-size / 2), 0.5, (-size / 2)), 'Out', 'Quad', len, true, nil)
                             for i = 1, 10 do
                                 c.ImageTransparency = c.ImageTransparency + 0.05
-                                wait(len / 12)
+                                --wait(len / 12)
                             end
                             c:Destroy()
                         end
